@@ -1,3 +1,8 @@
+=begin
+Copyright (c) 2008 Hans Engel
+See the file LICENSE for licensing details.
+=end
+
 # snippet remote #
 # :desc: Manage a remote repository for your snippets #
 

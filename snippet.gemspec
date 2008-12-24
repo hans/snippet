@@ -1,3 +1,8 @@
+=begin
+Copyright (c) 2008 Hans Engel
+See the file LICENSE for licensing details.
+=end
+
 Gem::Specification.new do |s|
   s.add_dependency 'mojombo-grit', '>= 0.9.3'
   s.author = 'Hans Engel'
