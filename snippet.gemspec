@@ -13,7 +13,8 @@ Gem::Specification.new do |s|
       'lib/commands/create.rb',
       'lib/commands/help.rb',
       'lib/commands/list.rb',
-      'lib/commands/read.rb']
+      'lib/commands/read.rb',
+      'lib/commands/remote.rb']
   s.homepage = 'http://github.com/hans/snippet'
   s.name = 'snippet'
   s.platform = Gem::Platform::RUBY
