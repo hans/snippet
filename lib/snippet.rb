@@ -8,7 +8,7 @@ class Snippet
   
   def run_command(command, args)
     put_help if command.nil?
-    file = File.join('commands', command + '.rb')
+    file = File.join File.dirname(__FILE__), 'commands', command + '.rb'
     if File.exists? file
       require file
     else

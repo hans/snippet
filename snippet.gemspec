@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
     'Rakefile',
     'snippet.gemspec',
     'bin/snippet',
-    'lib/snippet.rb']
+    'lib/snippet.rb',
+      'lib/commands/help.rb']
   s.homepage = 'http://github.com/hans/snippet'
   s.name = 'snippet'
   s.platform = Gem::Platform::RUBY
