@@ -7,7 +7,7 @@ See the file LICENSE for licensing details.
 # :desc: Create a new snippet (contents should be sent via STDIN) #
 
 unless $args[0]
-  puts 'Usage: snippet create <name> (note: contents of snippet need to be sent via stdin)'
+  puts 'Usage: snippet create <name> (note: contents should be sent via STDIN)'
   exit 1
 end
 
