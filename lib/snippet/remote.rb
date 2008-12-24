@@ -8,6 +8,10 @@ See the file LICENSE for licensing details.
 
 case $args[0]
 when 'add'
+  unless $args[1]
+    puts 'Usage: snippet remote add <url>'
+    exit 1
+  end
   `cd #{$basedir}; git remote add origin #{$args[1]}`
 when 'rm'
   `cd #{$basedir}; git remote rm origin`
