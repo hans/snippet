@@ -3,7 +3,7 @@ Copyright (c) 2008 Hans Engel
 See the file LICENSE for licensing details.
 =end
 
-# snippet read #
+# :topline: read <name> #
 # :desc: Read the contents of a snippet #
 
 unless $args[0]

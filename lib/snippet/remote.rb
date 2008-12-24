@@ -3,7 +3,7 @@ Copyright (c) 2008 Hans Engel
 See the file LICENSE for licensing details.
 =end
 
-# snippet remote #
+# :topline: remote <add <url>/rm/sync/pull/push> #
 # :desc: Manage a remote repository for your snippets #
 
 case $args[0]

@@ -3,7 +3,7 @@ Copyright (c) 2008 Hans Engel
 See the file LICENSE for licensing details.
 =end
 
-# snippet rm #
+# :topline: rm <name> #
 # :desc: Delete a snippet #
 
 unless $args[0]
