@@ -16,7 +16,7 @@ class Snippet
     command = $args.shift
     init_repo command
     put_help if command.nil?
-    file = File.join File.dirname(__FILE__), 'commands', command + '.rb'
+    file = File.join File.dirname(__FILE__), 'snippet', command + '.rb'
     if File.exists? file
       require file
     else

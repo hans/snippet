@@ -15,12 +15,12 @@ Gem::Specification.new do |s|
     'snippet.gemspec',
     'bin/snippet',
     'lib/snippet.rb',
-      'lib/commands/create.rb',
-      'lib/commands/help.rb',
-      'lib/commands/list.rb',
-      'lib/commands/read.rb',
-      'lib/commands/remote.rb',
-      'lib/commands/rm.rb']
+      'lib/snippet/create.rb',
+      'lib/snippet/help.rb',
+      'lib/snippet/list.rb',
+      'lib/snippet/read.rb',
+      'lib/snippet/remote.rb',
+      'lib/snippet/rm.rb']
   s.homepage = 'http://github.com/hans/snippet'
   s.name = 'snippet'
   s.platform = Gem::Platform::RUBY
