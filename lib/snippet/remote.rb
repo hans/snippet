@@ -17,4 +17,6 @@ when 'pull'
   `cd #{$basedir}; git pull origin master`
 when 'push'
   `cd #{$basedir}; git push origin master`
+else
+  puts 'Usage: snippet remote <add <url>/rm/sync/pull/push>'
 end

@@ -6,6 +6,11 @@ See the file LICENSE for licensing details.
 # snippet read #
 # :desc: Read the contents of a snippet #
 
+unless $args[0]
+  puts 'Usage: snippet read <name>'
+  exit 1
+end
+
 begin
   contents = File.read File.join($basedir, $args[0])
   puts contents
