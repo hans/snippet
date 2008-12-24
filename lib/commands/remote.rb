@@ -6,6 +6,10 @@ when 'add'
   `cd #{$basedir}; git remote add origin #{$args[1]}`
 when 'rm'
   `cd #{$basedir}; git remote rm origin`
-else
+when 'sync'
   `cd #{$basedir}; git pull origin master; git push origin master`
+when 'pull'
+  `cd #{$basedir}; git pull origin master`
+when 'push'
+  `cd #{$basedir}; git push origin master`
 end
